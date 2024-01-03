@@ -1,0 +1,29 @@
+.verticalmenu_wrapper{
+  width: 40%;
+  margin-left: -12px;
+}
+
+.verticalmenu_item.active{
+  background-color: #f4f4f4;
+  border-left: 5px solid #574efa;
+  transition: all 0.2s ease-in;
+  color: #574efa;
+}
+
+.verticalmenu_item:hover{
+  background-color: #f4f4f4;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.footer_wrapper ul span {
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.7rem;
+}
+.footer_wrapper ul li {
+  list-style:none;
+  font-size: 0.8rem;
+  padding : 5px 0px;
+  font-weight: 500;
+}
